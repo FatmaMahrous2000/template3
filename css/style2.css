@@ -1,0 +1,331 @@
+body{
+    background: url('../images/banner-bg.jpg.webp') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+*{
+    font-family: "Poppins", sans-serif;box-sizing: border-box;
+}
+.bg-overlay{
+  /*  background-image: linear-gradient(135deg, rgb(145, 209, 255,.3) 0%, rgb(163, 135, 255,.3) 100%);*/
+    width: 100%;background-position: center;padding: 100px 0px;
+    box-sizing: border-box;
+}
+.container-all{width: 80%;margin: auto;height: 100%;}
+
+/*///////////////////////////////         start header             ///////////////////////////*/
+
+header{
+    height:600px;width:100%;
+}
+
+.navbar{width: 100%;}
+
+nav{height:15%;}
+
+.slider{
+    background: url('../images/banner-bg.jpg.webp') no-repeat right right;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;height: 85%;
+    
+}
+
+.slider-overlay{
+    background: linear-gradient(to bottom right, rgb(145, 209, 255,.7), rgb(163, 135, 255,.7)); 
+    width: 100%;height:100%;color: #fff;
+}
+
+.slider-overlay .h1{
+    font-weight: 100;word-spacing: 3px;
+}
+.slider-overlay p{
+    font-size: 16px;line-height: 1.6em;
+}
+/*///////////////////////////////          end header             ///////////////////////*/
+
+
+
+
+/*///////////////////////////////          start visually             ///////////////////////*/
+
+.visually{
+    background-color: white;
+   padding: 120px 0px;box-sizing: border-box;
+
+    
+}
+
+.container-visually{
+    width: 90%;height: 100%;margin: auto;
+}
+
+.left{
+    position: relative;height: 450px;
+}
+.left img{
+    position: absolute;right:5%;
+}
+.frame{
+     border: 10px solid #777;height: 100%;width: 80%;
+     position: absolute;top:8%;right:12%;
+     
+}
+
+.right{
+    padding-top: 100px;
+}
+
+.right h1
+{font-size: 35px;color: #000;font-weight: 600;}
+
+.right h2{
+    font-size: 35px;font-weight: 100;color:#a387ff;
+}
+.right p{
+    color: #777;font-weight: 300;font-size: 15px;
+}
+
+.right a{
+    color: #000;
+    text-decoration: none;
+    transition:.5s all ;
+    -webkit-transition:.5s all ;
+    -moz-transition:.5s all ;
+    -ms-transition:.5s all ;
+    -o-transition:.5s all ;
+}
+.right a:hover{
+    color: #a387ff;
+}
+
+
+
+/*///////////////////////////////          end visually section           ///////////////////////*/
+
+
+/*///////////////////////////////          start feature section           ///////////////////////*/
+
+.feature-parent{
+    padding: 10% 0px;box-sizing: border-box;
+    background-image: -webkit-linear-gradient(135deg, #a387ff 0%, #91d1ff 100%);
+    
+}
+.feature-item{box-sizing: border-box;}
+
+.feature-item h6{
+    color: #222;font-weight: 600;
+}
+
+.feature-item p{
+    color: #777;font-weight: 300;
+}
+
+
+/*///////////////////////////////          end feature section           ///////////////////////*/
+
+
+
+/*///////////////////////////////////////////             start numbers section       ///////////////////////////*/
+
+.numbers-parent{
+background-color: white;padding: 100px 0px;box-sizing: border-box;
+}
+
+.numbers-parent h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.numbers-parent h2{
+    font-size: 24px;
+    font-weight: 100;
+    color: #a387ff;
+}
+/*--///////////////////////////////////////////             end numbers section       ///////////////////////////*/
+
+
+/*///////////////////////////////////////////             start comments section       //////////////////////*/
+
+.comments-parent{
+    padding: 100px 0px 50px;box-sizing: border-box;
+    background-color: #f9faff;
+}
+.comments-parent h3{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #222;
+}
+
+.comments-parent p{
+    font-size:14px;
+    font-weight: 300;color:#777;margin-bottom:50px;
+}
+.comments-parent a{
+text-decoration: none;color: #a387ff;font-weight: 600;
+}
+.comments-parent a div{width: 100%;background-color:white}
+
+.comments-parent a div:hover a{
+    color: #777;
+}
+.comments-parent .row{box-sizing: border-box;}
+
+/*///////////////////////////////////////////             end comments section       //////////////////////*/
+
+
+/*/////////////////////////             start screen section         //////////////////////////////*/
+.screens-parent{
+    background-color: white;padding: 150px 0px 100px;
+}
+.screens-parent h1{
+    color: #a387ff;font-size: 50px;
+    margin-right: 20px;
+}
+.screens-parent .info h3{
+    font-size: 1.125em;
+    font-weight: 600;
+    letter-spacing: 2px;color: #222;
+}
+
+.screens-parent .info p{    font-size: 15px;
+    font-weight: 300;color: #777;line-height: 25px;
+}
+/*////////////////////////             end screen section         //////////////////////////////*/
+
+
+/*//////////////////////////           start subscribe section      //////////////////////////////  */
+.subscribe-parent{
+    background-image: -webkit-linear-gradient(135deg, #a387ff 0%, #91d1ff 100%);
+    padding: 100px 0px 100px;color: #fff;text-align: center;
+}
+
+.subscribe-parent h1{    font-weight: 600; font-size: 36px}
+.subscribe-parent h2{    font-size: 36px; font-weight: 100;}
+.subscribe-parent span{font-weight: 300;}
+
+.searchButton{
+    width: 80%;height:55px;position: relative;
+    margin: auto;
+} 
+.subscribe-parent .searchButton input{
+    width: 100%;padding:18px 20px;box-sizing: border-box;font-weight: 500;
+    border-radius: 40px;font-size: 16px;border:none;background-color:white;
+}
+
+.searchButton ::placeholder{
+    color: -internal-light-dark(black, white);
+}
+.subscribe-parent a{
+    position: absolute;
+    right:2%;
+    top:8px;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
+    border-radius:40px ;
+    -webkit-border-radius:40px ;
+    -moz-border-radius:40px ;
+    -ms-border-radius:40px ;
+    -o-border-radius:40px ;color: white;
+}
+/*//////////////////////////           end subscribe section      //////////////////////////////  */
+
+
+/*///////////////////////////         start footer section        /////////////////////////////*/
+
+footer{
+    background-color: white;padding:100px 0px 75px ;text-align: center;
+}
+
+footer a{
+    color: #777;text-decoration: none;font-weight: bold;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+footer p{color: #777;font-size: 14px;text-align: center;
+    font-weight: 300;}
+
+
+/*//////////////////////////////              end footer section    ///////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (min-width:769px) and (max-width:1024px){
+ 
+    .right p{
+      font-size: 16px;
+    }
+    .container-all{width: 95%;margin: auto;}
+  
+    .container-feature{
+        width: 90%;margin: auto;;
+    }
+
+    .searchButton{
+        width:450px;height:55px;position: relative;
+        margin: auto;
+    } 
+    
+    .subscribe-parent a{
+        position: absolute;
+        right:2%;
+        top:8px;
+        text-decoration: none;
+        padding: 10px 10px;
+      
+    }
+
+    .numbers-parent h2{margin-bottom: 10px;}
+  }
+
+
+@media (min-width:481px) and (max-width:768px){
+
+    .container-all{width: 98%;margin: auto;height: 100%;}
+
+    .container-feature{
+        width: 80%;margin: auto;;
+    }
+
+    .comments-parent .row{
+        display: flex;justify-content: center;text-align: center;
+    }
+
+   .comments-parent .row div h3,p{text-align: left;}
+
+   .comments-parent .img3{margin-top: 30px;}
+   .comments-parent .row div p{
+       margin-bottom:100px;
+   }
+
+   .searchButton{
+    width:350px;height:55px;position: relative;
+    margin: auto;
+} 
+
+.subscribe-parent a{
+    position: absolute;
+    right:2%;
+    top:8px;
+    text-decoration: none;
+    padding: 10px 10px;
+  
+}
+
+.numbers-parent h2{margin-bottom: 30px;}
+
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
